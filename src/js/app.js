@@ -1,5 +1,6 @@
 import tabs from "./modules/tabs";
 import slider from "./modules/slider";
+import calculateCall from "./modules/calculate-call";
 
 document.addEventListener("DOMContentLoaded", () => {
     tabs(".tabcontent", ".tabheader__items", ".tabheader__item", "tabheader__item_active");
@@ -13,4 +14,5 @@ document.addEventListener("DOMContentLoaded", () => {
         totalSelector: "#total",
         dotsBoxSelector: ".offer__slider-dots-box",
     });
+    calculateCall();
 });

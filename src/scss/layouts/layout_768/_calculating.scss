@@ -1,0 +1,18 @@
+.calculating {
+  &__choose {
+    flex-direction: row;
+    &_medium {
+      max-width: 743px;
+    }
+    &_big {
+      max-width: 930px;
+    }
+  }
+  &__total {
+    display: flex;
+    max-width: 490px;
+  }
+  &__result {
+    padding: 0px 0px 0px 0px;
+  }
+}
