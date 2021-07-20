@@ -1,0 +1,26 @@
+.promotion {
+  & .container {
+
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    text-align: start;
+    flex: 0 1 400px;
+  }
+  &__descr {
+  }
+  &__timer {
+    // max-width: 1000px;
+    margin: 0;
+    flex: 1 1 400px;
+    & .title {
+      padding: 0px 0px 40px 0px;
+      text-align: end;
+    }
+  }
+}
+.bgc {
+  &_y {
+  }
+}

@@ -1,0 +1,23 @@
+.promotion {
+  &__timer {
+    // width: 50%;
+    max-width: 600px;
+
+    & .timer__block {
+      width: 102px;
+      height: 120px;
+      font-size: 26px;
+      font-weight: 300;
+      text-align: center;
+      span {
+        margin: 24px 0px 0px 0px;
+        line-height: 40px;
+        display: block;
+        // margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 50px;
+        font-weight: 700;
+      }
+    }
+  }
+}

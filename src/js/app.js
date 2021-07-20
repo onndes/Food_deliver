@@ -1,6 +1,7 @@
 import tabs from "./modules/tabs";
 import slider from "./modules/slider";
 import calculateCall from "./modules/calculate-call";
+import timer from "./modules/timer";
 
 document.addEventListener("DOMContentLoaded", () => {
     tabs(".tabcontent", ".tabheader__items", ".tabheader__item", "tabheader__item_active");
@@ -15,4 +16,5 @@ document.addEventListener("DOMContentLoaded", () => {
         dotsBoxSelector: ".offer__slider-dots-box",
     });
     calculateCall();
+    timer(".timer", "2021-12-31");
 });
