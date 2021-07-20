@@ -1,0 +1,29 @@
+.offer {
+  padding: 0px 0 100px 0;
+  position: relative;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    align-items: center;
+  }
+  &__slider {
+    margin: 0px 0px 0px 20px;
+  }
+  &__text {
+    flex: 0 0 600px;
+  }
+  &__advantages {
+    flex: 0 0 400px;
+  }
+  &__slider-wrapper {
+    // justify-content: flex-end;
+  }
+}
