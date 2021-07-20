@@ -1,0 +1,38 @@
+.header {
+  max-width: 1450px;
+  margin: auto;
+  &__wrapp {
+    padding: 10px 10px;
+    margin: 10px 10px;
+  }
+  &__left-block {
+  }
+  &__logo {
+    max-width: 170px;
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  &__links {
+    padding: 20px 0;
+  }
+  &__link {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    color: $dark-grey;
+    margin: 0px 40px 15px 0px;
+    @include psevdo(0, 110%, 8px) {
+      left: -5%;
+      bottom: -1px;
+      z-index: -1;
+      background: #54ed39;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__right-block {
+  }
+}

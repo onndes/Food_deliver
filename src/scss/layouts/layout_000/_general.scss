@@ -1,0 +1,44 @@
+body {
+  font-family: $fontFamily;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+.btn {
+  width: 180px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid $black-opacity1;
+  box-shadow: 0 4px 15px $black-opacity1;
+  cursor: pointer;
+  transition: 0.3s all;
+  outline: 0;
+  &_btn_white {
+    background-color: $white;
+  }
+  &_white {
+  }
+  &_dark {
+    background-color: $dark-grey;
+    color: $white;
+    border: none;
+  }
+  &_min {
+    height: 50px;
+  }
+  &:hover {
+    box-shadow: 0 4px 30px $black-opacity1;
+  }
+  
+  
+}
