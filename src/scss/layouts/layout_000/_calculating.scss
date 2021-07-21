@@ -29,7 +29,7 @@
     display: block;
     width: 16px;
     height: 16px;
-    background: url(../icons/switch.svg) center center/cover no-repeat;
+    background: url(#{$i}icons/switch.svg) center center/cover no-repeat;
   }
   &__choose {
     position: relative;

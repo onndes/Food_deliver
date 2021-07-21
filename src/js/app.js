@@ -2,6 +2,8 @@ import tabs from "./modules/tabs";
 import slider from "./modules/slider";
 import calculateCall from "./modules/calculate-call";
 import timer from "./modules/timer";
+import modal from "./modules/modal";
+import { openModalWindow } from "./modules/modal";
 
 document.addEventListener("DOMContentLoaded", () => {
     tabs(".tabcontent", ".tabheader__items", ".tabheader__item", "tabheader__item_active");
@@ -17,4 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     calculateCall();
     timer(".timer", "2021-12-31");
+    
+    const modalTimer = setTimeout(() => openModalWindow(".modal", modalTimer), 50000);
+    modal("[data-modal]", ".modal", modalTimer);
 });
